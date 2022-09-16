@@ -1,0 +1,23 @@
+/* array destructuring */
+
+
+const numbers = [34,65]
+// const [x,y] = [34,65]
+const [x,y] = numbers;
+
+console.log(x,y)
+
+/* taking two numbers and returning them inside an array */
+
+function boxify(num1,num2){
+
+    const nums =[num1,num2];
+
+    return nums;
+
+}
+
+console.log(boxify(90,34));
+
+
+
